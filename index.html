@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPR Lite - Seu Aplicativo de Navegação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+        }
+
+        header {
+            background-color: #073349;
+            color: white;
+            padding: 40px 20px;
+            border-bottom-left-radius: 50% 20%;
+            border-bottom-right-radius: 50% 20%;
+        }
+
+        header img {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 10px 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .download-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #28a745;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: #218838;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 40px;
+            padding-bottom: 80px; /* Espaço para o rodapé fixo */
+        }
+
+        .feature {
+            flex: 1;
+            min-width: 250px;
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .feature h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 1em;
+            color: #666;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+
+        footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            header p {
+                font-size: 1em;
+            }
+
+            .features {
+                flex-direction: column;
+                padding-bottom: 100px; /* Mais espaço para o rodapé em dispositivos móveis */
+            }
+
+            .feature {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="D:\Downloads\GPRWEB\gpr.png" alt="GPR Lite Logo" class="logo">
+           <h1>GPR Lite</h1>
+            <p>Compartilhe sua localização em tempo real, envie mensagens personalizadas e registre cada passo do seu trajeto com precisão e segurança.</p>
+            <a href="https://seusite.com/download" class="download-btn">⬇️ Baixar Agora - v1.0.2 </a>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="features">
+            <div class="feature">
+                <h2>Rastreamento em Tempo Real</h2>
+                <p>Acompanhe sua localização ao vivo com atualizações automáticas a cada 5 segundos.</p>
+            </div>
+            <div class="feature">
+                <h2>Armazenamento Offline</h2>
+                <p>Salve suas localizações localmente quando estiver sem internet e sincronize depois.</p>
+            </div>
+            <div class="feature">
+                <h2>Mapa Interativo</h2>
+                <p>Visualize seu trajeto com marcadores coloridos e detalhes como data, hora e mensagens.</p>
+            </div>
+			
+        </section>
+		<br>
+			<br>
+			<br>
+	 </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 GPR Lite. Todos os direitos reservados. | Robson D. Oliveira</p>
+        </div>
+    </footer>
+</body>
+</html>
