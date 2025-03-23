@@ -1,0 +1,272 @@
+/*******************************************************
+    Template Name    : Aeren - App Landing Page Template
+    Author           : Cute Themes
+    Version          : 1.0
+    Created          : 2021
+    File Description : Main Reaposive file of the template
+*******************************************************/
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+	.home-area .home-content h1 {
+		font-size: 40px;
+	}
+	.download-content h2 {
+		font-size: 30px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.navbar-b.navbar-trans .nav-item, .navbar-b.navbar-reduce .nav-item {
+		padding-right: 0;
+	}
+	#navbarDefault {
+		width: 100%;
+		height: 250px;
+		overflow-y: scroll;
+	}
+	.home-area .home-content {
+		text-align: center;
+	}
+	.home-area .home-content h1 {
+		font-size: 40px;
+	}
+	.home-area {
+		padding-top: 150px;
+		padding-bottom: 40px;
+	}
+	.about-image {
+		margin-top: 35px;
+	}
+	.choose-images {
+		margin-bottom: 35px;
+	}
+	.feature-overview-img {
+		margin-top: 35px;
+	}
+	.single-counter {
+		padding: 15px 0;
+	}
+	.footer-about {
+		margin-top: 35px;
+	}
+	.footer-top-wrapper {
+		padding-top: 70px;
+	}
+	.footer-list {
+		padding-left: 0;
+		margin-top: 35px;
+		text-align: left;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		margin-top: 15px;
+	}
+	.navbar-b .nav-item {
+		margin-bottom: 10px;
+	}
+	.navbar-b .nav-item:last-child {
+		margin-bottom: 0px;
+	}
+	#navbarDefault {
+		width: 100%;
+		height: 250px;
+		overflow-y: scroll;
+	}
+	.home-area {
+		padding-top: 150px;
+	}
+	.home-area .home-content {
+		text-align: center;
+	}
+	.home-area .home-content h1 {
+		font-size: 35px;
+	}
+	.home-area .home-content p {
+		font-size: 15px;
+	}
+	.about-image {
+		margin-top: 35px;
+		margin-left: 0;
+	}
+	.choose-images {
+		margin-bottom: 35px;
+	}
+	.overview-item-box {
+		margin-bottom: 25px;
+	}
+	.overview-item-box:last-child {
+		margin-bottom: 0px;
+	}
+	.feature-overview-item {
+		padding: 30px 0px 25px;
+	}
+	.feature-overview-img {
+		margin-top: 35px;
+	}
+	.single-counter {
+		padding: 15px 0;
+	}
+	.footer-about {
+		margin-top: 35px;
+	}
+	.footer-list {
+		padding-left: 0;
+		margin-top: 35px;
+		text-align: left;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.section-title h2 {
+		font-size: 30px;
+	}
+	.navbar-nav {
+		margin-top: 15px;
+	}
+	.navbar-b .nav-item {
+		margin-bottom: 10px;
+	}
+	.navbar-b .nav-item:last-child {
+		margin-bottom: 0px;
+	}
+	.home-area {
+		padding-top: 150px;
+	}
+	.home-area .home-content {
+		text-align: center;
+	}
+	.home-area .home-content h1 {
+		font-size: 30px;
+		margin-bottom: 18px;
+	}
+	.home-area .home-content p {
+		font-size: 14px;
+	}
+	.about-content h2 {
+		font-size: 30px;
+	}
+	.about-image {
+		margin-top: 35px;
+		margin-left: 0;
+	}
+	.choose-content-info h2 {
+		font-size: 30px;
+	}
+	.choose-images {
+		margin-bottom: 35px;
+	}
+	.single-counter {
+		padding: 15px 0;
+	}
+	.counter-contents h2 {
+		font-size: 35px;
+	}
+	.feature-overview-content h2 {
+		font-size: 30px;
+	}
+	.overview-item-box {
+		margin-bottom: 25px;
+	}
+	.overview-item-box:last-child {
+		margin-bottom: 0px;
+	}
+	.feature-overview-item {
+		padding: 30px 0px 25px;
+	}
+	.feature-overview-img {
+		margin-top: 35px;
+	}
+	.download-content h2 {
+		font-size: 28px;
+	}
+	.download-content .download-btn .app-link-btn-1 {
+		margin-bottom: 15px;
+	}
+	.contact-form-shadow {
+		padding: 35px 15px;
+	}
+	.footer-about {
+		margin-top: 0px;
+	}
+	.footer-list {
+		padding-left: 0;
+		margin-top: 35px;
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 320px) and (min-width: 0px){
+	.section-title h2 {
+		font-size: 30px;
+	}
+	.navbar-nav {
+		margin-top: 15px;
+	}
+	.navbar-b .nav-item {
+		margin-bottom: 10px;
+	}
+	.navbar-b .nav-item:last-child {
+		margin-bottom: 0px;
+	}
+	#navbarDefault {
+		width: 100%;
+		height: auto;
+		overflow-y: scroll;
+	}
+	.home-area {
+		padding-top: 100px;
+	}
+	.home-area .home-content {
+		text-align: center;
+	}
+	.home-area .home-content h1 {
+		font-size: 30px;
+		margin-bottom: 18px;
+	}
+	.home-area .home-content p {
+		font-size: 14px;
+	}
+	.about-content h2 {
+		font-size: 27px;
+	}
+	.about-image {
+		margin-top: 35px;
+		margin-left: 0;
+	}
+	.choose-content-info h2 {
+		font-size: 27px;
+	}
+	.choose-images {
+		margin-bottom: 35px;
+	}
+	.single-counter {
+		padding: 15px 0;
+	}
+	.counter-contents h2 {
+		font-size: 35px;
+	}
+	.feature-overview-img {
+		margin-top: 35px;
+	}
+	.download-content h2 {
+		font-size: 27px;
+	}
+	.download-content .download-btn .app-link-btn-1 {
+		margin-bottom: 15px;
+	}
+	.contact-form-shadow {
+		padding: 35px 15px;
+	}
+	.footer-about {
+		margin-top: 0px;
+	}
+	.footer-list {
+		padding-left: 0;
+		margin-top: 35px;
+		text-align: left;
+	}
+	
+}
